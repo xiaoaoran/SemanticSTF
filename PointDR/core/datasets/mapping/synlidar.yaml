@@ -1,0 +1,140 @@
+# This file is covered by the LICENSE file in the root of this project.
+labels: 
+  0 : "unlabeled"
+  1: "car"
+  2: "pick-up"
+  3: "truck"
+  4: "bus"
+  5: "bicycle"
+  6: "motorcycle"
+  7: "other-vehicle"
+  8: "road"
+  9: "sidewalk"
+  10: "parking"
+  11: "other-ground"
+  12: "female"
+  13: "male"
+  14: "kid"
+  15: "group"
+  16: "bicyclist"
+  17: "motorcyclist"
+  18: "building"
+  19: "other-structure"
+  20: "vegetation"
+  21: "trunk"
+  22: "terrain"
+  23: "traffic-sign"
+  24: "pole"
+  25: "traffic-cone"
+  26: "fence"
+  27: "garbage-can"
+  28: "electric-box"
+  29: "table"
+  30: "chair"
+  31: "bench"
+  32: "other-object"
+color_map: # bgr
+  0 : [0, 0, 0]
+  1 : [0, 0, 255]
+  2: [245, 150, 100]
+  3: [245, 230, 100]
+  4: [250, 80, 100]
+  5: [150, 60, 30]
+  6: [255, 0, 0]
+  7: [180, 30, 80]
+  8: [255, 0, 0]
+  9: [30, 30, 255]
+  10: [200, 40, 255]
+  11: [90, 30, 150]
+  12: [255, 0, 255]
+  13: [255, 150, 255]
+  14: [75, 0, 75]
+  15: [75, 0, 175]
+  16: [0, 200, 255]
+  17: [50, 120, 255]
+  18: [0, 150, 255]
+  19: [170, 255, 150]
+  20: [0, 175, 0]
+  21: [0, 60, 135]
+  22: [80, 240, 150]
+  23: [150, 240, 255]
+  24: [0, 0, 255]
+  25: [255, 255, 50]
+  26: [245, 150, 100]
+  27: [255, 0, 0]
+  28: [200, 40, 255]
+  29: [30, 30, 255]
+  30: [90, 30, 150]
+  31: [250, 80, 100]
+  32: [180, 30, 80]
+# classes that are indistinguishable from single scan or inconsistent in
+# ground truth are mapped to their closest equivalent
+learning_map:
+  0: 255  # "unlabeled"
+  1: 0  # "car"
+  2: 3  # "pick-up"
+  3: 3  # "truck"
+  4: 4  # "bus"
+  5: 1  # "bicycle"
+  6: 2  # "motorcycle"
+  7: 4  # "other-vehicle"
+  8: 8  # "road"
+  9: 10  # "sidewalk"
+  10: 9  # "parking"
+  11: 11  # "other-ground"
+  12: 5  # "female"
+  13: 5  # "male"
+  14: 5  # "kid"
+  15: 5  # "group"
+  16: 6  # "bicyclist"
+  17: 7  # "motorcyclist"
+  18: 12  # "building"
+  19: 255  # "other-structure"
+  20: 14  # "vegetation"
+  21: 15  # "trunk"
+  22: 16  # "terrain"
+  23: 18  # "traffic-sign"
+  24: 17  # "pole"
+  25: 255  # "traffic-cone"
+  26: 13  # "fence"
+  27: 255  # "garbage-can"
+  28: 255  # "electric-box"
+  29: 255  # "table"
+  30: 255  # "chair"
+  31: 255  # "bench"
+  32: 255  # "other-object"
+reverse_label_name_mapping:
+  "car": 1
+  "bicycle": 5
+  "motorcycle": 6
+  "truck": 3
+  "other-vehicle": 7
+  "person": 12
+  "bicyclist": 16
+  "motorcyclist": 17
+  "road": 8
+  "parking": 10
+  "sidewalk": 9
+  "other-ground": 11
+  "building": 18
+  "fence": 26
+  "vegetation": 20
+  "trunk": 21
+  "terrain": 22
+  "pole": 24
+  "traffic-sign": 23
+split: # sequence numbers
+  train:
+    - 00
+    - 01
+    - 02
+    - 03
+    - 04
+    - 05
+    - 06
+    - 07
+    - 08
+    - 09
+    - 10
+    - 11
+    - 12
