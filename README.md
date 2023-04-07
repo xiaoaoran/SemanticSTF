@@ -134,7 +134,12 @@ You can download the pretrained models on both SemanticKITTI->SemanticSTF and Sy
 
 If you find our work useful in your research, please consider citing:  
 ```
-Coming soon
+@article{xiao20233d,
+  title={3D Semantic Segmentation in the Wild: Learning Generalized Models for Adverse-Condition Point Clouds},
+  author={Xiao, Aoran and Huang, Jiaxing and Xuan, Weihao and Ren, Ruijie and Liu, Kangcheng and Guan, Dayan and Saddik, Abdulmotaleb El and Lu, Shijian and Xing, Eric},
+  journal={arXiv preprint arXiv:2304.00690},
+  year={2023}
+}
 ```
 SemanticSTF dataset consists of re-annotated LiDAR point cloud data from the STF dataset. Kindly consider citing it if you intend to use the data:
 ```
