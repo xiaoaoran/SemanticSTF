@@ -43,9 +43,11 @@ cd pointDR/
 GPU Requirement: > 1 x NVIDIA GeForce RTX 2080 Ti.
 
 The code has been tested with 
- - Python 3.8, CUDA 10.2, pytorch 1.8.0 and torchsparse 1.4.0. 
- - Python3.7, CUDA 11.2, pytorch1.10.1, torchsparse2.0.0b0
- - Any other version may require to update the code for compatibility.
+ - Python 3.8, CUDA 10.2, Pytorch 1.8.0, TorchSparse 1.4.0. 
+ - Python 3.8, CUDA 11.6, Pytorch 1.13.0, TorchSparse 2.0.0b0
+ - IMPORTANT: This code base is not compatible with TorchSparse 2.1.0.
+
+Please refer to [here](docs/INSTALL.md) for the installation details.
 
 #### Pip/Venv/Conda
 In your virtual environment follow [TorchSparse](https://github.com/mit-han-lab/spvnas). This will install all the base packages.
