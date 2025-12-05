@@ -145,7 +145,7 @@ class SemanticSTFInternal:
 
     def __getitem__(self, index):
         with open(self.files[index], 'rb') as b:
-            block_ = np.fromfile(b, dtype=np.float32).reshape(-1, 5)[:, :4]
+            block_ = np.fromfile(b, dtype=np.float32).reshape(-1, 5)[:, :4]  # Note: different from SemanticKITTI and SynLiDAR (with four dimensions)
             block_[:, 3] /= 255.
         block = np.zeros_like(block_)
 
