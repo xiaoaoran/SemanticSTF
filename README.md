@@ -9,7 +9,7 @@ Authors: [Aoran Xiao](https://scholar.google.com/citations?user=yGKsEpAAAAAJ&hl=
 ![image](https://github.com/xiaoaoran/SemanticSTF/blob/master/Img/Picture1.png)
 
 ## SemanticSTF dataset
-Download SemanticSTF dataset from [GoogleDrive](https://forms.gle/oBAkVJeFKNjpYgDA9), [BaiduYun](https://pan.baidu.com/s/10QqPZuzPclURZ6Niv1ch1g)(code: 6haz). Data folders are as follows:
+Download SemanticSTF dataset from [HuggingFace](https://huggingface.co/datasets/AR-X/SemanticSTF), [GoogleDrive](https://forms.gle/oBAkVJeFKNjpYgDA9), [BaiduYun](https://pan.baidu.com/s/10QqPZuzPclURZ6Niv1ch1g)(code: 6haz). Data folders are as follows:
 The data should be organized in the following format:
 ```
 /SemanticSTF/
